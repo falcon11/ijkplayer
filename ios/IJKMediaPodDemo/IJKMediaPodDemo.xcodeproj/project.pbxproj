@@ -22,6 +22,16 @@
 		F9261E3D2281617A000838BC /* IJKMediaControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F9261E3A2281617A000838BC /* IJKMediaControl.m */; };
 		F9261E4222816E9E000838BC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F9261E4022816E9E000838BC /* Reachability.m */; };
 		F9261E44228170CC000838BC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9261E43228170CC000838BC /* SystemConfiguration.framework */; };
+		F9261E4B2282B895000838BC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9261E4A2282B895000838BC /* AudioToolbox.framework */; };
+		F9261E4D2282B89F000838BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9261E4C2282B89F000838BC /* AVFoundation.framework */; };
+		F9261E4F2282B8C0000838BC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9261E4E2282B8C0000838BC /* CoreMedia.framework */; };
+		F9261E512282B8CB000838BC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9261E502282B8CB000838BC /* CoreVideo.framework */; };
+		F9261E532282B8DC000838BC /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9261E522282B8DC000838BC /* libbz2.tbd */; };
+		F9261E552282B8EC000838BC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F9261E542282B8EC000838BC /* libz.tbd */; };
+		F9261E572282B8F7000838BC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9261E562282B8F7000838BC /* MediaPlayer.framework */; };
+		F9261E592282B904000838BC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9261E582282B904000838BC /* MobileCoreServices.framework */; };
+		F9261E5B2282B90D000838BC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9261E5A2282B90D000838BC /* OpenGLES.framework */; };
+		F9261E5D2282B918000838BC /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9261E5C2282B918000838BC /* VideoToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +78,16 @@
 		F9261E4022816E9E000838BC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		F9261E4122816E9E000838BC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		F9261E43228170CC000838BC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F9261E4A2282B895000838BC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F9261E4C2282B89F000838BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F9261E4E2282B8C0000838BC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F9261E502282B8CB000838BC /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F9261E522282B8DC000838BC /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		F9261E542282B8EC000838BC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F9261E562282B8F7000838BC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F9261E582282B904000838BC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F9261E5A2282B90D000838BC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F9261E5C2282B918000838BC /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +95,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9261E5D2282B918000838BC /* VideoToolbox.framework in Frameworks */,
+				F9261E5B2282B90D000838BC /* OpenGLES.framework in Frameworks */,
+				F9261E592282B904000838BC /* MobileCoreServices.framework in Frameworks */,
+				F9261E572282B8F7000838BC /* MediaPlayer.framework in Frameworks */,
+				F9261E552282B8EC000838BC /* libz.tbd in Frameworks */,
+				F9261E532282B8DC000838BC /* libbz2.tbd in Frameworks */,
+				F9261E512282B8CB000838BC /* CoreVideo.framework in Frameworks */,
+				F9261E4F2282B8C0000838BC /* CoreMedia.framework in Frameworks */,
+				F9261E4D2282B89F000838BC /* AVFoundation.framework in Frameworks */,
+				F9261E4B2282B895000838BC /* AudioToolbox.framework in Frameworks */,
 				F9261E44228170CC000838BC /* SystemConfiguration.framework in Frameworks */,
 				A197EEEED2D45CE5A641DEDD /* libPods-IJKMediaPodDemo.a in Frameworks */,
 			);
@@ -171,6 +201,16 @@
 		E9A894D41E27E605A44A8673 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F9261E5C2282B918000838BC /* VideoToolbox.framework */,
+				F9261E5A2282B90D000838BC /* OpenGLES.framework */,
+				F9261E582282B904000838BC /* MobileCoreServices.framework */,
+				F9261E562282B8F7000838BC /* MediaPlayer.framework */,
+				F9261E542282B8EC000838BC /* libz.tbd */,
+				F9261E522282B8DC000838BC /* libbz2.tbd */,
+				F9261E502282B8CB000838BC /* CoreVideo.framework */,
+				F9261E4E2282B8C0000838BC /* CoreMedia.framework */,
+				F9261E4C2282B89F000838BC /* AVFoundation.framework */,
+				F9261E4A2282B895000838BC /* AudioToolbox.framework */,
 				F9261E43228170CC000838BC /* SystemConfiguration.framework */,
 				7E676A9CBD9C96C0D97C7071 /* libPods.a */,
 				6FF51B77F39D2FE919AE853C /* libPods-IJKMediaPodDemo.a */,
