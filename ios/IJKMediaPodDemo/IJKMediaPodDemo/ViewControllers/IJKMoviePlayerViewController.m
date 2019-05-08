@@ -27,11 +27,6 @@
 }
 
 + (void)presentFromViewController:(UIViewController *)viewController withTitle:(NSString *)title URL:(NSURL *)url completion:(void (^)())completion {
-    IJKDemoHistoryItem *historyItem = [[IJKDemoHistoryItem alloc] init];
-    
-    historyItem.title = title;
-    historyItem.url = url;
-    [[IJKDemoHistory instance] add:historyItem];
     
     [viewController presentViewController:[[IJKVideoViewController alloc] initWithURL:url] animated:YES completion:completion];
 }
